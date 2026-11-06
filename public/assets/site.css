@@ -195,6 +195,10 @@ input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none;appeara
 .ph-finance{background-image:url("img/finance.jpg");background-position:50% 45%}
 .ph-team{background-image:url("img/team.jpg");background-position:50% 30%}
 .ph-fiji{background-image:url("img/fiji.jpg");background-position:50% 55%}
+.ph-retirement{background-image:url("img/retirement.jpg");background-position:50% 42%}
+.ph-employer{background-image:url("img/employer.jpg");background-position:50% 40%}
+.ph-education{background-image:url("img/education.jpg");background-position:50% 40%}
+.ph-career{background-image:url("img/career.jpg");background-position:50% 38%}
 
 /* ================= SHARED SECTION STYLES ================= */
 .sec{padding:110px 0}
@@ -226,7 +230,7 @@ input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none;appeara
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}.mq-track{animation:none}}
 
-/* 1. Tasks — "I want to ___" sentence + bento tiles */
+/* 1. Tasks : "I want to ___" sentence + bento tiles */
 .tasks{padding:24px 0 0}
 .tk-box{background:var(--soft);border-radius:28px;padding:40px 40px 14px;position:relative;overflow:hidden}
 .tk-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:30px;flex-wrap:wrap}

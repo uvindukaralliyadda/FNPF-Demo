@@ -91,7 +91,7 @@ const opts={
 $('#chkForm').onsubmit=e=>{
   e.preventDefault();
   const r=$('#reason').value,a=$('#age').value; let o=opts[r];
-  if(r==='retire'&&a!=='55') o=a==='50-54'?['Low balance account','Aged 50–54 with $10,000 or less and out of work for 12+ months? You may be able to withdraw in full.','/withdrawals/low-balance/']:['Plan your retirement','Retirement withdrawals start at 55. See how to grow your savings until then.','/retirement/plan-your-retirement/'];
+  if(r==='retire'&&a!=='55') o=a==='50-54'?['Low balance account','Aged 50 to 54 with $10,000 or less and out of work for 12+ months? You may be able to withdraw in full.','/withdrawals/low-balance/']:['Plan your retirement','Retirement withdrawals start at 55. See how to grow your savings until then.','/retirement/plan-your-retirement/'];
   const res=$('#result'); res.innerHTML=`<b>${o[0]}</b><p>${o[1]}</p><a class="link" href="${o[2]}">See requirements <svg class="ic"><use href="#i-arrow"/></svg></a>`; res.classList.add('show');
 };
 /* Life events scroller */
@@ -130,7 +130,7 @@ $$('.reveal').forEach(el=>io.observe(el));
 /* Hero slider */
 (function(){
   const frame=$('#heroFrame'), slides=frame.querySelectorAll('.h-slide'), bars=frame.querySelectorAll('.h-bar');
-  const DUR=4500, reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const DUR=2000, reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
   let i=0, playing=!reduce, hover=false, start=performance.now(), done=0;
   function go(n){
     i=(n+slides.length)%slides.length; done=0; start=performance.now();

@@ -226,7 +226,7 @@ input[type=search]::-webkit-search-cancel-button{-webkit-appearance:none;appeara
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}.mq-track{animation:none}}
 
-/* 1. Tasks — "I want to ___" sentence + bento tiles */
+/* 1. Tasks : "I want to ___" sentence + bento tiles */
 .tasks{padding:24px 0 0}
 .tk-box{background:var(--soft);border-radius:28px;padding:40px 40px 14px;position:relative;overflow:hidden}
 .tk-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:30px;flex-wrap:wrap}

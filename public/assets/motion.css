@@ -1,6 +1,6 @@
 /* ===== Brand accents (minor touches) + scroll motion =====
-   Red  #C1273D – small highlights, hover lines, active markers
-   Navy #172A45 – hover fills, active states, focus rings          */
+   Red  #C1273D: small highlights, hover lines, active markers
+   Navy #172A45: hover fills, active states, focus rings          */
 :root{--red:#C1273D;--navy:#172A45;--red-soft:rgba(193,39,61,.08);--navy-soft:rgba(23,42,69,.07)}
 ::selection{background:var(--navy);color:#fff}
 :focus-visible{outline-color:var(--navy)}

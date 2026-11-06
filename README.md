@@ -1,4 +1,4 @@
-# FNPF website – Next.js build
+# FNPF website: Next.js build
 
 Next.js 15 (App Router) version of the FNPF website prototype: 80 pages, including the homepage.
 
